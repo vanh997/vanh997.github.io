@@ -2,7 +2,7 @@
 /*-------- cre : MeB 26.03.2020 ------*/
 /*-------- cre : mbDetail 27.03.2020 ------*/
 
-@media (min-width: 360px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
 
     /*-------- Langding-page ------*/
     .MeB {
@@ -15,8 +15,6 @@
     }
 
     .MeB .page-wrapper .container {
-        position: fixed;
-        bottom: 70px;
         text-align: center;
     }
 
@@ -40,7 +38,6 @@
     .MeB .page-wrapper .download {
         padding-top: 30px;
         justify-content: center;
-        margin-left: -30px;
     }
 
     .MeB .page-wrapper .btn {

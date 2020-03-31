@@ -10,62 +10,58 @@ a {
     color: #fff;
 }
 
+header {
+    background: #0099b0;
+}
+
+header ul li a {
+    text-transform: uppercase;
+}
+
+header ul li {
+    padding: 0 20px;
+}
+
+header ul li.active a {
+    color: #6ad9e0;
+}
+header .navbar {
+    min-height: 60px;
+    padding: .5rem 0;
+}
+
+header .navbar-nav .active > .nav-link,
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link.show,
+header .navbar-nav .show > .nav-link {
+    color: #6ad9e0;
+}
+header .navbar-nav i{
+    padding: 0 20px;
+}
+
+header .navbar-brand{
+    margin: 0 auto;
+}
 /*-------- Landing-page------*/
 .MeB {
     background: url(../img/bgr-n.png) top left no-repeat;
     background-color: #00474a;
-    height: 100vh;
+    height: calc(100vh - 60px);
     background-size: cover;
 }
-
-.MeB header {
-    background: #0099b0;
+.MeB .center{
+    height: calc(100vh - 60px);
+    display: flex;   
+    align-items: center;
 }
-
-.MeB header ul li a {
-    text-transform: uppercase;
-}
-
-.MeB header ul li {
-    padding: 0 20px;
-}
-
-.MeB header ul li.active a {
-    color: #6ad9e0;
-}
-
-.MeB .navbar {
-    justify-content: flex-start;
-    padding: .5rem 0;
-}
-
-.MeB .navbar .navbar-brand {
-    margin: 0 auto;
-}
-
-.MeB .navbar .navbar-brand span,
-.MeB .navbar .navbar-brand i {
-    display: none;
-}
-
-.MeB .navbar i {
-    display: block;
-}
-
 .MeB .page-wrapper .logo img.mebook {
     height: 120px
 }
 
-.MeB .page-wrapper .ebook {
-    position: relative;
-}
-
 .MeB .page-wrapper {
-    background: url(../img/ebook.png) top right no-repeat fixed;
-    background-size: 45% auto;
-    height: calc(100vh - 70px);
-    overflow: hidden;
-    margin: auto 0;
+    background: url(../img/ebook.png) top right no-repeat;
+    height: calc(100vh - 60px);
 }
 
 .MeB .page-wrapper h2 {
@@ -75,13 +71,6 @@ a {
     line-height: 1.4;
     max-width: 700px;
     font-weight: normal;
-}
-
-.MeB .page-wrapper .container .logo {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .MeB .page-wrapper a[type="button"].regist {
@@ -114,35 +103,6 @@ body .mbDetail h5 {
     background-color: #ffff;
     height: 100vh;
     background-size: cover;
-}
-
-.mbDetail header {
-    background: #0099b0;
-}
-
-.mbDetail header ul li a {
-    text-transform: uppercase;
-}
-
-.mbDetail header ul li {
-    padding: 0 20px;
-}
-
-.mbDetail header ul li.active a {
-    color: #6ad9e0;
-}
-
-.mbDetail .navbar {
-    justify-content: flex-start;
-    padding: .5rem 0;
-}
-
-.mbDetail .navbar .navbar-brand {
-    margin: 0 auto;
-}
-
-.mbDetail .navbar i {
-    display: block;
 }
 
 .mbDetail h2 {
@@ -224,35 +184,6 @@ body .mbDetail h5 {
     background-color: #ffff;
     height: 100vh;
     background-size: cover;
-}
-
-.mbRegist header {
-    background: #0099b0;
-}
-
-.mbRegist header ul li a {
-    text-transform: uppercase;
-}
-
-.mbRegist header ul li {
-    padding: 0 20px;
-}
-
-.mbRegist header ul li.active a {
-    color: #6ad9e0;
-}
-
-.mbRegist .navbar {
-    justify-content: flex-start;
-    padding: .5rem 0;
-}
-
-.mbRegist .navbar .navbar-brand {
-    margin: 0 auto;
-}
-
-.mbRegist .navbar i {
-    display: block;
 }
 
 .mbRegist h2 {
