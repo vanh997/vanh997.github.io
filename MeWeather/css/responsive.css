@@ -170,7 +170,7 @@
 
 @media (min-width: 812px) and (max-width: 1024px) {
     .MeW{
-         background-size: 100% 100%;
+         background-size: cover;
     }
     .mwRegist footer {
         position: relative;

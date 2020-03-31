@@ -36,7 +36,7 @@ header .navbar-nav .nav-link.show,
 header .navbar-nav .show > .nav-link {
     color: #6ad9e0;
 }
-header .navbar-nav i{
+header i{
     padding: 0 20px;
 }
 
