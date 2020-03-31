@@ -2,7 +2,7 @@
 /*-------- cre : MeB 26.03.2020 ------*/
 /*-------- cre : mbDetail 27.03.2020 ------*/
 
-@media (min-width: 360px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
 
     /*-------- Langding-page ------*/
     .MeW {
@@ -25,24 +25,24 @@
     }
 
     .MeW .page-wrapper .logo img.vina {
-        position: absolute;
-        left: 150px;
+        position: relative;
+        left: 20px;
         height: 20px;
-        top: 43px;
+        top: -105px;
     }
 
     .MeW .page-wrapper h2 {
         font-size: 1.2rem;
         line-height: 1.25;
         text-shadow: 0px 2px 4.2px rgba(35, 31, 32, 0.35);
-        padding-left: 20px;
-        padding-right: 20px;
+        margin-left: 0 20px;
+        margin-right: 0 20px;
+        padding: 0 0 25px 0;
     }
 
     .MeW .page-wrapper .download {
-        padding-top: 30px;
         justify-content: center;
-        margin-left: -30px;
+
     }
 
     .MeW .page-wrapper .btn {
@@ -83,7 +83,7 @@
     }
 
     /*-------- Đăng ký ------*/
-   .mwRegist footer {
+    .mwRegist footer {
         background: #f1f9fa;
         text-align: left;
         position: relative;
@@ -96,10 +96,6 @@
 @media (min-width: 426px) and (max-width: 768px) {
 
     /*-------- Langding-page ------*/
-    .MeW .page-wrapper {
-        background: none;
-    }
-
     .MeW .page-wrapper h2 {
         font-size: 1.7rem;
     }
@@ -128,7 +124,7 @@
     }
 
     /*-------- Đăng ký ------*/
-   .mwRegist footer {
+    .mwRegist footer {
         position: relative;
         left: 0;
         right: 0;
@@ -157,9 +153,6 @@
         padding: 50px 0 15px;
     }
 
-    .mwDetail .page-wrapper .row {
-        margin-right: 0;
-    }
 
     .mwDetail .page-wrapper ul div,
     .mwDetail .page-wrapper ul div table {
@@ -167,7 +160,7 @@
     }
 
     /*-------- Đăng ký ------*/
-   .mwRegist footer {
+    .mwRegist footer {
         position: fixed;
         left: 0;
         right: 0;
@@ -176,22 +169,32 @@
 }
 
 @media (min-width: 812px) and (max-width: 1024px) {
+    .MeW{
+         background-size: 100% 100%;
+    }
     .mwRegist footer {
         position: relative;
         left: 0;
         right: 0;
         bottom: 0;
     }
-    .mwRegist header ul li{
+
+    .mwRegist header ul li {
         padding: 0 15px;
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
-    .mwRegist footer {
-        position: relative;
-        left: 0;
-        right: 0;
-        bottom: 0;
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: .5rem;
     }
-}
+
+    @media (min-width: 1025px) and (max-width: 1440px) {
+        .mwRegist footer {
+            position: relative;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
