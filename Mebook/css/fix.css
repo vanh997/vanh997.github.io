@@ -1,0 +1,333 @@
+/*-------- anhvv - 26.03.2020 ------*/
+
+body {
+    box-sizing: border-box;
+    font: 16px 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #fff;
+}
+
+/*-------- Landing-page------*/
+.MeB {
+    background: url(../img/bgr-n.png) top left no-repeat;
+    background-color: #00474a;
+    height: 100vh;
+    background-size: cover;
+}
+
+.MeB header {
+    background: #0099b0;
+}
+
+.MeB header ul li a {
+    text-transform: uppercase;
+}
+
+.MeB header ul li {
+    padding: 0 20px;
+}
+
+.MeB header ul li.active a {
+    color: #6ad9e0;
+}
+
+.MeB .navbar {
+    justify-content: flex-start;
+    padding: .5rem 0;
+}
+
+.MeB .navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.MeB .navbar .navbar-brand span,
+.MeB .navbar .navbar-brand i {
+    display: none;
+}
+
+.MeB .navbar i {
+    display: block;
+}
+
+.MeB .page-wrapper .logo img.mebook {
+    height: 120px
+}
+
+.MeB .page-wrapper .ebook {
+    position: relative;
+}
+
+.MeB .page-wrapper {
+    background: url(../img/ebook.png) top right no-repeat fixed;
+    background-size: 45% auto;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    margin: auto 0;
+}
+
+.MeB .page-wrapper h2 {
+    color: #0099b0;
+    font-size: 2rem;
+    padding: 35px 0;
+    line-height: 1.4;
+    max-width: 700px;
+    font-weight: normal;
+}
+
+.MeB .page-wrapper .container .logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MeB .page-wrapper a[type="button"].regist {
+    text-align: center;
+    color: #0a2d32;
+    border-radius: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #25b648, #aed136);
+    background-repeat: round;
+    text-transform: uppercase;
+    padding: 5px 38px;
+    line-height: 2;
+}
+
+.MeB .page-wrapper .download {
+    padding-top: 80px;
+}
+
+/*--------Giới thiệu dịch vụ------*/
+body ul li {
+    text-align: justify;
+}
+
+body .mbDetail h2,
+body .mbDetail h5 {
+    color: #0099b0;
+}
+
+.mbDetail {
+    background-color: #ffff;
+    height: 100vh;
+    background-size: cover;
+}
+
+.mbDetail header {
+    background: #0099b0;
+}
+
+.mbDetail header ul li a {
+    text-transform: uppercase;
+}
+
+.mbDetail header ul li {
+    padding: 0 20px;
+}
+
+.mbDetail header ul li.active a {
+    color: #6ad9e0;
+}
+
+.mbDetail .navbar {
+    justify-content: flex-start;
+    padding: .5rem 0;
+}
+
+.mbDetail .navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.mbDetail .navbar i {
+    display: block;
+}
+
+.mbDetail h2 {
+    font-size: 2.2rem;
+    padding-top: 40px
+}
+
+.mbDetail h5 {
+    text-transform: uppercase;
+    padding: 20px 15px;;
+}
+
+.mbDetail .page-wrapper ul li {
+    line-height: 2;
+}
+
+.mbDetail b,
+.mbDetail table th {
+    font-weight: 500;
+}
+
+.mbDetail table thead {
+    background: #0099b0;
+    color: #fff;
+}
+
+.mbDetail table td,
+.mbDetail table th {
+    border: 1px solid #0099b0
+}
+
+.mbDetail ul li b.number:after {
+    content: '1352';
+    padding-left: 4px;
+    color: #0099b0;
+    font-size: 1.1rem;
+}
+
+.mbDetail footer {
+    background: #f1f9fa;
+    text-align: left;
+}
+
+.mbDetail footer .main-footer div {
+    padding: 30px 0;
+    font-size: .9rem;
+    line-height: 1.9
+}
+
+.mbDetail footer .main-footer div ul li {
+    list-style: none;
+}
+
+.mbDetail footer .main-footer div ul {
+    padding-inline-start: 15px;
+}
+
+.mbDetail footer .main-footer img {
+    position: relative;
+    top: 30px;
+    height: 80px;
+}
+
+.mbDetail footer .main-footer h6 {
+    text-transform: uppercase;
+    color: #0099b0;
+    padding-bottom: 10px;
+}
+
+.mbDetail footer .sub-footer {
+    background: #0099b0;
+    color: #fff;
+    font-size: .85rem;
+    line-height: 2.5;
+}
+
+/*--------Đăng ký------*/
+.mbRegist {
+    background-color: #ffff;
+    height: 100vh;
+    background-size: cover;
+}
+
+.mbRegist header {
+    background: #0099b0;
+}
+
+.mbRegist header ul li a {
+    text-transform: uppercase;
+}
+
+.mbRegist header ul li {
+    padding: 0 20px;
+}
+
+.mbRegist header ul li.active a {
+    color: #6ad9e0;
+}
+
+.mbRegist .navbar {
+    justify-content: flex-start;
+    padding: .5rem 0;
+}
+
+.mbRegist .navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.mbRegist .navbar i {
+    display: block;
+}
+
+.mbRegist h2 {
+    font-size: 2.2rem;
+    padding-top: 40px;
+    color: #0099b0;
+}
+
+.mbRegist .page-wrapper ul li {
+    line-height: 2;
+}
+
+.mbRegist b,
+.mbRegist table th {
+    font-weight: 450;
+}
+
+.mbRegist table thead {
+    background: #0099b0;
+    color: #fff;
+}
+
+.mbRegist table td,
+.mbRegist table th {
+    border: 1px solid #0099b0
+}
+.mbRegist tfoot a {
+     text-align: center;
+    color: #0a2d32;
+    border-radius: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #25b648, #aed136);
+    background-repeat: round;
+    text-transform: uppercase;
+    padding: 5px 38px;
+    line-height: 2;
+}
+.mbRegist footer {
+    background: #f1f9fa;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mbRegist footer .main-footer div {
+    padding: 30px 0;
+    font-size: .9rem;
+    line-height: 1.9
+}
+
+.mbRegist footer .main-footer div ul li {
+    list-style: none;
+}
+
+.mbRegist footer .main-footer div ul {
+    padding-inline-start: 15px;
+}
+
+.mbRegist footer .main-footer img {
+    position: relative;
+    top: 30px;
+    height: 80px;
+}
+
+.mbRegist footer .main-footer h6 {
+    text-transform: uppercase;
+    color: #0099b0;
+    padding-bottom: 10px;
+}
+
+.mbRegist footer .sub-footer {
+    background: #0099b0;
+    color: #fff;
+    font-size: .85rem;
+    line-height: 2.5;
+}

@@ -1,0 +1,182 @@
+/*-------- anhvv cre26.03.2020------*/
+/*-------- cre : MeB 26.03.2020 ------*/
+/*-------- cre : mbDetail 27.03.2020 ------*/
+
+@media (min-width: 360px) and (max-width: 425px) {
+
+    /*-------- Langding-page ------*/
+    .MeB {
+        background: url(../img/bgr-mb.png)top center no-repeat;
+        background-size: 100% auto;
+    }
+
+    .MeB .page-wrapper {
+        background: transparent;
+    }
+
+    .MeB .page-wrapper .container {
+        position: fixed;
+        bottom: 70px;
+        text-align: center;
+    }
+
+    .MeB .page-wrapper img.mebook {
+        width: 80%;
+        position: relative;
+        bottom: -15px;
+    }
+
+    .MeB .page-wrapper img.vina {
+        width: 35%;
+        line-height: 1;
+        margin-left: 150px;
+    }
+
+    .MeB .page-wrapper h2 {
+        font-size: 1.2rem;
+        line-height: 1.25;
+    }
+
+    .MeB .page-wrapper .download {
+        padding-top: 30px;
+        justify-content: center;
+        margin-left: -30px;
+    }
+
+    .MeB .page-wrapper .btn {
+        padding: .375rem .5rem;
+    }
+
+    /*-------- Giới thiệu dịch vụ MeBook ------*/
+    .mbDetail h2 {
+        font-size: 1.7rem;
+        padding: 20px 13px 0;
+    }
+
+    .mbDetail h5 {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+
+    .mbDetail .page-wrapper .row {
+        margin-right: 0;
+    }
+
+    .mbDetail .page-wrapper ul div,
+    .mbDetail .page-wrapper ul div table {
+        padding: 0;
+    }
+
+    .mbDetail footer .main-footer img {
+        top: 20px;
+        height: 60px;
+    }
+
+    .mbDetail footer .sub-footer {
+        text-align: center;
+    }
+
+    .mbDetail footer .main-footer div {
+        padding: 40px 0 15px;
+    }
+    
+    /*-------- Đăng ký ------*/
+        .mbRegist footer {
+        background: #f1f9fa;
+        text-align: left;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    /*-------- Langding-page ------*/
+    .MeB .page-wrapper {
+        background: none;
+    }
+
+    .MeB .page-wrapper h2 {
+        font-size: 1.7rem;
+    }
+
+    .MeB .page-wrapper .logo img.vina {
+        max-height: 25px;
+    }
+
+    /*-------- Giới thiệu dịch vụ MeBook ------*/
+    .mbDetail .page-wrapper .row {
+        margin-right: 0;
+    }
+
+    .mbDetail .page-wrapper ul div,
+    .mbDetail .page-wrapper ul div table {
+        padding: 0;
+    }
+
+    .mbDetail footer .main-footer img {
+        top: 20px;
+        height: 60px;
+    }
+
+    .mbDetail footer .main-footer div {
+        padding: 30px 0 15px;
+    }
+
+    /*-------- Đăng ký ------*/
+    .mbRegist footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    /*-------- Landing page ------*/
+    .MeB .page-wrapper {
+        background: none;
+        position: relative;
+    }
+
+    .MeB .page-wrapper .logo-vina {
+        line-height: 9.5;
+    }
+
+    /*-------- Giới thiệu dịch vụ MeBook ------*/
+    .mbDetail h5 {
+        padding: 20px 0 10px 15px;
+    }
+
+    .mbDetail footer .main-footer div {
+        padding: 50px 0 15px;
+    }
+
+    .mbDetail .page-wrapper .row {
+        margin-right: 0;
+    }
+
+    .mbDetail .page-wrapper ul div,
+    .mbDetail .page-wrapper ul div table {
+        padding: 0;
+    }
+     /*-------- Đăng ký ------*/
+    .mbRegist footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 812px) and (max-width: 1024px){
+    .mbDetail footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

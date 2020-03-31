@@ -1,0 +1,76 @@
+/*-------- hadtv ------*/
+
+body {
+    margin: 0 auto;
+    font: normal 14px/1em 'Roboto', sans-serif;
+    color: #333;
+}
+
+
+/*-------- global ------*/
+
+.bg-ocean {
+    background: #0099b0;
+}
+
+.navbar {
+    min-height: 60px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #6ad9e0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.home {
+    background: url(../img/bgr-n.png) top left no-repeat;
+    background-color: #00474a;
+    height: calc(100vh - 60px);
+    background-size: cover;
+}
+
+.wrapper {
+    background: url(../img/ebook.png) top right no-repeat;
+    height: calc(100vh - 60px);
+}
+
+.home h2 {
+    color: #0099b0;
+    font-size: 2em;
+    padding: 30px 0;
+    line-height: 1.5;
+    max-width: 600px;
+    font-weight: normal;
+}
+
+.home .btn.reg {
+    text-align: center;
+    color: #0a2d32;
+    border-radius: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #25b648, #aed136);
+    background-repeat: round;
+    text-transform: uppercase;
+    padding: 5px 38px;
+    line-height: 2;
+}
+
+.logo img.mebook {
+    height: 120px;
+}
+
+.center{
+    border: 10px solid yellow; 
+    height: calc(100vh - 60px);
+    display: flex;  
+    align-items: center;
+}
