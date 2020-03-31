@@ -1,0 +1,197 @@
+/*-------- anhvv cre26.03.2020------*/
+/*-------- cre : MeB 26.03.2020 ------*/
+/*-------- cre : mbDetail 27.03.2020 ------*/
+
+@media (min-width: 360px) and (max-width: 425px) {
+
+    /*-------- Langding-page ------*/
+    .MeW {
+        background: url(../img/bgr-mw.png)top center no-repeat;
+        background-size: 100% auto;
+    }
+
+    .MeW .page-wrapper {
+        background: transparent;
+    }
+
+    .MeW .page-wrapper .container {
+        text-align: center;
+    }
+
+    .MeW .page-wrapper img.meweather {
+        width: 80%;
+        position: relative;
+        bottom: -15px;
+    }
+
+    .MeW .page-wrapper .logo img.vina {
+        position: absolute;
+        left: 150px;
+        height: 20px;
+        top: 43px;
+    }
+
+    .MeW .page-wrapper h2 {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        text-shadow: 0px 2px 4.2px rgba(35, 31, 32, 0.35);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .MeW .page-wrapper .download {
+        padding-top: 30px;
+        justify-content: center;
+        margin-left: -30px;
+    }
+
+    .MeW .page-wrapper .btn {
+        padding: .375rem .5rem;
+    }
+
+    /*-------- Giới thiệu dịch vụ MeBook ------*/
+    .mwDetail h2 {
+        font-size: 1.7rem;
+        padding: 20px 13px 0;
+    }
+
+    .mwDetail h5 {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+
+    .mwDetail .page-wrapper .row {
+        margin-right: 0;
+    }
+
+    .mwDetail .page-wrapper ul div,
+    .mwDetail .page-wrapper ul div table {
+        padding: 0;
+    }
+
+    .mwDetail footer .main-footer img {
+        top: 20px;
+        height: 60px;
+    }
+
+    .mwDetail footer .sub-footer {
+        text-align: center;
+    }
+
+    .mwDetail footer .main-footer div {
+        padding: 40px 0 15px;
+    }
+
+    /*-------- Đăng ký ------*/
+   .mwRegist footer {
+        background: #f1f9fa;
+        text-align: left;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    /*-------- Langding-page ------*/
+    .MeW .page-wrapper {
+        background: none;
+    }
+
+    .MeW .page-wrapper h2 {
+        font-size: 1.7rem;
+    }
+
+    .MeW .page-wrapper .logo img.vina {
+        max-height: 25px;
+    }
+
+    /*-------- Giới thiệu dịch vụ MeBook ------*/
+    .mwDetail .page-wrapper .row {
+        margin-right: 0;
+    }
+
+    .mwDetail .page-wrapper ul div,
+    .mwDetail .page-wrapper ul div table {
+        padding: 0;
+    }
+
+    .mwDetail footer .main-footer img {
+        top: 20px;
+        height: 60px;
+    }
+
+    .mwDetail footer .main-footer div {
+        padding: 30px 0 15px;
+    }
+
+    /*-------- Đăng ký ------*/
+   .mwRegist footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    /*-------- Landing page ------*/
+    .MeW .page-wrapper {
+        background: none;
+        position: relative;
+    }
+
+    .MeW .page-wrapper .logo-vina {
+        line-height: 9.5;
+    }
+
+    /*-------- Giới thiệu dịch vụ MeBook ------*/
+    .mwDetail h5 {
+        padding: 20px 0 10px 15px;
+    }
+
+    .mwDetail footer .main-footer div {
+        padding: 50px 0 15px;
+    }
+
+    .mwDetail .page-wrapper .row {
+        margin-right: 0;
+    }
+
+    .mwDetail .page-wrapper ul div,
+    .mwDetail .page-wrapper ul div table {
+        padding: 0;
+    }
+
+    /*-------- Đăng ký ------*/
+   .mwRegist footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 812px) and (max-width: 1024px) {
+    .mwRegist footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .mwRegist header ul li{
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .mwRegist footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

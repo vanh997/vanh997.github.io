@@ -1,0 +1,270 @@
+/*-------- anhvv - 26.03.2020 ------*/
+
+body {
+    box-sizing: border-box;
+    font: 16px 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #fff;
+}
+header {
+    box-shadow: 0px 4px 8px 0 rgba(35, 31, 32, 0.53);
+    background-color: #1b75bb;
+}
+
+header ul li a {
+    text-transform: uppercase;
+}
+
+header ul li {
+    padding: 0 20px;
+}
+
+header ul li.active a {
+    color: #6ad9e0;
+}
+header .navbar {
+    min-height: 60px;
+    padding: .5rem 0;
+}
+
+header .navbar-nav .active > .nav-link,
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link.show,
+header .navbar-nav .show > .nav-link {
+    color: #6ad9e0;
+}
+header .navbar-nav i{
+    padding: 0 20px;
+}
+
+header .navbar-brand{
+    margin: 0 auto;
+}
+/*-------- Landing-page------*/
+.MeW {
+    background: url(../img/bgr.png) bottom left no-repeat;
+    height: calc(100vh - 60px);
+    background-size: cover;
+}
+.MeW .center{
+    height: calc(100vh - 60px);
+    display: flex;   
+    align-items: center;
+}
+.MeW .page-wrapper .logo img.meweather {
+    height: 150px
+}
+
+.MeW .page-wrapper .logo img.vina {
+    position: relative;
+    height: 30px;
+    top: -50px;
+    right: 335px;
+}
+
+.MeW .page-wrapper h2 {
+    color: #ffff;
+    font-size: 1.8rem;
+    padding: 35px 0;
+    line-height: 1.4;
+    max-width: 700px;
+    font-weight: normal;
+}
+
+.MeW .page-wrapper a.regist {
+    text-align: center;
+    color: #0a2d32;
+    border-radius: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #f15921, #fbac18);
+    background-repeat: round;
+    text-transform: uppercase;
+    padding: 5px 38px;
+    line-height: 2;
+}
+
+.MeW .page-wrapper .download {
+    padding-top: 80px;
+}
+
+/*--------Giới thiệu dịch vụ------*/
+body ul li {
+    text-align: justify;
+}
+
+body .mwDetail h2,
+body .mwDetail h5 {
+    color: #1b75bb;
+}
+
+.mwDetail {
+    background-color: #ffff;
+    height: 100vh;
+    background-size: cover;
+}
+
+.mwDetail h2 {
+    font-size: 2.2rem;
+    padding-top: 40px
+}
+
+.mwDetail h5 {
+    text-transform: uppercase;
+    padding: 20px 15px;
+    ;
+}
+
+.mwDetail .page-wrapper ul li {
+    line-height: 2;
+}
+
+.mwDetail b,
+.mwDetail table th {
+    font-weight: 500;
+}
+
+.mwDetail table thead {
+    background: #1b75bb;
+    color: #fff;
+}
+
+.mwDetail table td,
+.mwDetail table th {
+    border: 1px solid #1b75bb;
+}
+
+.mwDetail ul li b.number:after {
+    content: '1095';
+    padding-left: 4px;
+    color: #1b75bb;
+    font-size: 1.1rem;
+}
+
+.mwDetail footer {
+    background: #f1f9fa;
+    text-align: left;
+}
+
+.mwDetail footer .main-footer div {
+    padding: 30px 0;
+    font-size: .9rem;
+    line-height: 1.9
+}
+
+.mwDetail footer .main-footer div ul li {
+    list-style: none;
+}
+
+.mwDetail footer .main-footer div ul {
+    padding-inline-start: 15px;
+}
+
+.mwDetail footer .main-footer img {
+    position: relative;
+    top: 30px;
+    height: 80px;
+}
+
+.mwDetail footer .main-footer h6 {
+    text-transform: uppercase;
+    color: #1b75bb;
+    padding-bottom: 10px;
+}
+
+.mwDetail footer .sub-footer {
+    background: #1b75bb;
+    color: #fff;
+    font-size: .85rem;
+    line-height: 2.5;
+}
+
+/*--------Đăng ký------*/
+.mwRegist {
+    background-color: #ffff;
+    height: 100vh;
+    background-size: cover;
+}
+
+.mwRegist h2 {
+    font-size: 2.2rem;
+    padding-top: 40px;
+    color: #1b75bb;
+}
+
+.mwRegist .page-wrapper ul li {
+    line-height: 2;
+}
+
+.mwRegist b,
+.mwRegist table th {
+    font-weight: 450;
+}
+
+.mwRegist table thead {
+    background: #1b75bb;
+    color: #fff;
+}
+.mwRegist table{
+    text-align: justify;
+}
+.mwRegist table td,
+.mwRegist table th {
+    border: 1px solid #1b75bb
+}
+
+.mwRegist tfoot a {
+    text-align: center;
+    color: #0a2d32;
+    border-radius: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #f15921, #fbac18);
+    background-repeat: round;
+    text-transform: uppercase;
+    padding: 5px 38px;
+    line-height: 2;
+}
+
+.mwRegist footer {
+    background:#f1f9fa;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mwRegist footer .main-footer div {
+    padding: 30px 0;
+    font-size: .9rem;
+    line-height: 1.9
+}
+
+.mwRegist footer .main-footer div ul li {
+    list-style: none;
+}
+
+.mwRegist footer .main-footer div ul {
+    padding-inline-start: 15px;
+}
+
+.mwRegist footer .main-footer img {
+    position: relative;
+    top: 30px;
+    height: 80px;
+}
+
+.mwRegist footer .main-footer h6 {
+    text-transform: uppercase;
+    color: #1b75bb;
+    padding-bottom: 10px;
+}
+
+.mwRegist footer .sub-footer {
+    background: #1b75bb;
+    color: #fff;
+    font-size: .85rem;
+    line-height: 2.5;
+}
