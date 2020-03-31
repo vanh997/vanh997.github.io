@@ -5,6 +5,9 @@
 @media (min-width: 320px) and (max-width: 425px) {
 
     /*-------- Langding-page ------*/
+    header i{
+    padding: 0 20px;
+}
     .MeB {
         background: url(../img/bgr-mb.png)top center no-repeat;
         background-size: 100% auto;
