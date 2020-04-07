@@ -5,9 +5,10 @@
 @media (min-width: 320px) and (max-width: 425px) {
 
     /*-------- Langding-page ------*/
-    header i{
-    padding: 0 20px;
-}
+    header i {
+        padding: 0 20px;
+    }
+
     .MeB {
         background: url(../img/bgr-mb.png)top center no-repeat;
         background-size: 100% auto;
@@ -79,12 +80,10 @@
     .mbDetail footer .main-footer div {
         padding: 40px 0 15px;
     }
-    
+
     /*-------- Đăng ký ------*/
-        .mbRegist footer {
-        background: #f1f9fa;
-        text-align: left;
-        position: relative;
+    .mbRegist footer {
+        position: relative !important;
         left: 0;
         right: 0;
         bottom: 0;
@@ -127,10 +126,7 @@
 
     /*-------- Đăng ký ------*/
     .mbRegist footer {
-        position: relative;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        position: relative !important;
     }
 }
 
@@ -163,20 +159,38 @@
     .mbDetail .page-wrapper ul div table {
         padding: 0;
     }
-     /*-------- Đăng ký ------*/
+
+    /*-------- Đăng ký ------*/
     .mbRegist footer {
-        position: relative;
+        position: relative !important;
         left: 0;
         right: 0;
         bottom: 0;
     }
 }
 
-@media (min-width: 812px) and (max-width: 1024px){
+@media (min-width: 812px) and (max-width: 1024px) {
     .mbDetail footer {
-        position: relative;
+        position: relative !important;
         left: 0;
         right: 0;
         bottom: 0;
     }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+        .mbRegist footer {
+            position: relative !important;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
 }
