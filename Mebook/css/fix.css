@@ -182,7 +182,7 @@ body .mbDetail h5 {
 /*--------Đăng ký------*/
 .mbRegist {
     background-color: #ffff;
-    height: 100vh;
+    height: calc (100vh - 60px);
     background-size: cover;
 }
 
@@ -224,7 +224,6 @@ body .mbDetail h5 {
 .mbRegist footer {
     background: #f1f9fa;
     text-align: left;
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
